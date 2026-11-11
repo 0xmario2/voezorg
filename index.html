@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VOEZ</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}body{background:#000;color:#fff;font-family:'Inter',sans-serif}
+a{color:inherit;text-decoration:none}
+.top{position:fixed;top:0;width:100%;height:56px;display:flex;justify-content:space-between;align-items:center;padding:0 24px;background:#000;border-bottom:1px solid #111;z-index:10}
+.logo{font-size:15px;letter-spacing:0.4em}.nav{display:flex;gap:16px;align-items:center;font-size:10px;letter-spacing:0.2em;opacity:0.7}
+.btn{border:1px solid #fff;padding:8px 18px;border-radius:999px}
+.hero{min-height:82vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:90px 24px 40px}
+.hero h1{font-size:clamp(80px,15vw,160px);font-weight:300;letter-spacing:-0.07em;line-height:0.85}
+.sub{font-size:11px;opacity:0.35;letter-spacing:0.35em;margin:16px 0 32px}
+.btn-big{border:1px solid #fff;background:#fff;color:#000;padding:16px 48px;font-size:11px;letter-spacing:0.25em}
+.ca{margin-top:40px;border:1px solid #111;background:#050505;padding:14px 16px;display:flex;gap:12px;align-items:center;max-width:520px;width:100%}
+.ca code{flex:1;font-size:11px;opacity:0.6;overflow:hidden;text-overflow:ellipsis}
+.stats-new{display:flex;justify-content:center;gap:48px;padding:28px 0;border-top:1px solid #111;border-bottom:1px solid #111;margin-top:48px;width:100%;max-width:600px}
+.stats-new b{font-size:26px;font-weight:300}.stats-new i{font-style:normal;font-size:9px;opacity:0.3;letter-spacing:0.3em;margin-top:4px;display:block}
+.about-hero{padding:80px 24px;text-align:center;border-bottom:1px solid #111;max-width:1100px;margin:0 auto;width:100%}
+.about-hero h2{font-size:clamp(24px,5vw,42px);font-weight:200;line-height:1.1;letter-spacing:-0.03em}
+.section{max-width:1100px;margin:0 auto;padding:60px 24px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#111}
+.box{background:#000;padding:32px 24px}.box h3{font-size:11px;letter-spacing:0.25em;margin-bottom:10px}.box p{font-size:12px;opacity:0.45;line-height:1.7;font-weight:200}
+.foot{padding:30px;text-align:center;font-size:9px;opacity:0.15;letter-spacing:0.3em;border-top:1px solid #111}
+</style>
+</head>
+<body>
+<div class="top"><div class="logo">VOEZ</div><div class="nav"><a href="https://x.com/voezorg" target="_blank">X</a><a class="btn" href="https://app.torchpad.fun/trade/robinhood/0xca34a9fb0475b443ea799aa0dbaae2008d571111" target="_blank">TRADE</a></div></div>
+<div class="hero">
+<h1>VOEZ</h1><div class="sub">1B SUPPLY • 0/0 TAX • LP BURNED</div>
+<a class="btn-big" href="https://app.torchpad.fun/trade/robinhood/0xca34a9fb0475b443ea799aa0dbaae2008d571111" target="_blank">BUY $VOEZ</a>
+<div class="ca" onclick="navigator.clipboard.writeText('0x50ba557d1fdc846f48da5ae2b5d51a8ee05aa245')"><span style="font-size:9px;opacity:0.3">CA</span><code>0x50ba557d1fdc846f48da5ae2b5d51a8ee05aa245</code><span style="font-size:10px;border:1px solid #222;padding:5px 10px">COPY</span></div>
+<div class="stats-new"><div><b>1B</b><i>SUPPLY</i></div><div style="width:1px;background:#111"></div><div><b>0/0</b><i>TAX</i></div><div style="width:1px;background:#111"></div><div><b>BURNED</b><i>LP</i></div></div>
+</div>
+<div class="about-hero"><h2>Full black. No noise. Just VOEZ.</h2></div>
+<div class="section"><div class="grid3">
+<div class="box"><h3>MINIMAL</h3><p>Same as @voezorg. Full black. White border. Timeless.</p></div>
+<div class="box"><h3>CULTURE</h3><p>Not utility. A movement. If you know the door, you know.</p></div>
+<div class="box"><h3>FAIR</h3><p>1B fixed. No team. LP burned forever.</p></div>
+</div></div>
+<div class="foot">VOEZ © 2026</div>
+</body>
+</html>
